@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VivaEvents</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Asegúrate de tener esto -->
+</head>
+<body>
+   <header>
+      <nav>
+        <h1><i class="fas fa-calendar-alt"></i> VivaEvents</h1>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#"><i class="fas fa-home"></i> Inicio</a></li>
+          <li><a href="#"><i class="fas fa-calendar-check"></i> Eventos</a></li>
+          <li><a href="#"><i class="fas fa-info-circle"></i> Sobre Nosotros</a></li>
+          <li><a href="login.html"><i class="fas fa-sign-in-alt"></i> Iniciar Sesión</a></li>
+        </ul>
+        <!-- Icono de usuario y menú desplegable -->
+        <div class="user-option" id="user-option">
+          <div class="user-icon" id="user-icon">
+            <i class="fas fa-user-circle"></i>
+          </div>
+          <div class="user-dropdown" id="user-dropdown">
+            <a href="login.html"><i class="fas fa-sign-in-alt"></i> Iniciar sesión</a>
+            <a href="#"><i class="fas fa-user-plus"></i> Registrarse</a>
+          </div>
+        </div>
+        <!-- Menú hamburguesa -->
+        <div class="hamburguer" id="hamburguer">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+    
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h2>Bienvenido a tu plataforma de gestión de eventos</h2>
+        <p>Organiza, gestiona y participa en eventos de forma fácil y eficiente.</p>
+        <a href="#crear-evento" class="cta-btn">Crear evento</a>
+        <a href="#ver-eventos" class="cta-btn">Ver eventos</a>
+      </div>
+    </section>
+
+    <section class="about">
+      <h3>¿Cómo funciona?</h3>
+      <p>Con nuestra plataforma, puedes crear y gestionar eventos con facilidad. Registra los detalles, genera códigos QR para los asistentes y mucho más.</p>
+    </section>
+
+    <section class="features">
+      <h3>Características clave</h3>
+      <ul>
+        <li>Generación de códigos QR</li>
+        <li>Verificación de asistencia</li>
+        <li>Personalización de eventos</li>
+        <li>Notificaciones en tiempo real</li>
+      </ul>
+    </section>
+
+    <section class="testimonials">
+      <h3>Lo que dicen nuestros usuarios</h3>
+      <div class="testimonial">
+        <p>"Una herramienta increíble que hace que gestionar eventos sea mucho más fácil." - Juan Pérez</p>
+      </div>
+      <div class="testimonial">
+        <p>"Recomiendo esta plataforma a todos los organizadores de eventos. ¡Es muy eficiente!" - Maria López</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Gestión de Eventos | Todos los derechos reservados</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+  
+</body>
+</html>
